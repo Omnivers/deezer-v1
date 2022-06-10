@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -15,23 +15,26 @@
     <header>
         <nav>
             <label class="logo"><img class="logo" src='/img/logo.png'></label>
+            <div class="head">
             <li>Télécharger</li>
             <li>Offres</li>
             <button class="Login">Connexion</button>
             <button class="Login">Inscription</button>
+            </div>
         </nav>
     </header>
     <main>
         <section class="promo">
-            <h1>Vos émotions méritent d'avoir leur musique.</h1>
-            <p>Profitez de 3 mois offerts pour essayer Deezer Premium*</p>
+            <h1>Vos émotions méritent<br>d'avoir leur musique.</h1>
+            <p>Profitez de 3 mois offerts pour essayer<br>Deezer Premium*</p>
             <button class="promotion">Deezer Premium</button>
             <button class="promotion">Deezer Gratuit</button>
         </section>
-    <section class="introduction">
-        <img src="img/phone.jpg" alt="phone">
+        <section class="introduction">
+        <img src="img/phone.jpg"  width="30%" height="30%" alt="phone">
         <article class="definition">
             <h1>Deezer c'est quoi ?</h1>
+            <div class="text">
             <h3><b>Toute votre musique dans votre poche.</b></h3>
             <h4>Parmi 73 millions de titres, retrouvez de vieilles connaissances et laissez-vous séduire par de nouveaux coups de coeur.</h4>
             <h3><b>Créez votre bibliothèque musicale.</b></h3>
@@ -40,9 +43,15 @@
             <h4>Avec Deezer Premium, vous n'avez pas besoin d'étre connecté à Internet pour profiter de votre musique préférée.</h4>
             <h3><b>Un Deezer qui vous ressemble</b></h3>
             <h4>Flow apprend à connaitre ce que vous aimez et ce que vous n'aimez pas. Découvrez votre bande(son personnalisée.</h4>
+            </div>
         </article>
+        </section>
         <section class="disclaimer">
             <icons>
+                <img src="redside-images/laptop.png">
+                <img src="iphone.png">
+                <img src="smart-watch.png">
+
 
             </icons>
             <article>
@@ -83,8 +92,9 @@
                 <button class="engagement">J'en profite</button>
             </article>
         </section>
+        <!--Manque de buttons-->
         <article class="reductions">
-            <h1>Abonnement annuel<span class="pourcentage">25%</span> </h1>
+            <h1>Abonnement annuel<span class="pourcentage">25%</span></h1>
             <h4>Un an d'abonnement à Deezer Premium pour 89,90 $ au lieu de 119,88 $</h4>
             <a href=""> En savoir plus </a>
         </article>
@@ -96,6 +106,7 @@
             <h1>Deezer Etudiant<span class="pourcentage">-50%</span></h1>
             <h4>Premium pour seulement 4,99 $/mois, 3 mois offerts</h4>
         </article>
+    </main>
         <footer>
         <section class="Store">
 
@@ -123,7 +134,14 @@
                <li>Musiciens et podcasteurs</li>
                <li>Développeurs</li>
                <li>Presse</li>
-           </div> 
+           </div>
+           <div class="Légal">
+               <h3>Légal</h3>
+               <li>Mentions légales</li>
+               <li>Conditions générales d'utilisation</li>
+               <li>Politique de protection des données</li>
+               <li>Cookies</li>
+           </div>
         </section> 
         <section class="logos">
             <icons>
@@ -132,10 +150,14 @@
             <label>
                 <img  src='/img/logo.png' alt="">
             </label>
+            
+        <select id="langue" >
+            <option value="français">Français</option>
+            <option value="anglais">English</option>
+            <option value="Chinois"> 汉语 </option>
+            <option value="Arabe">العربية</option>
+        </select>
         </section> 
         </footer>
-
-    </section>
-    </main>
 </body>
 </html>

@@ -1,0 +1,40 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+.head{
+    display: flex;
+    list-style: none;
+}
+.head li{
+    padding: 30px;
+}
+.Login{
+    margin: 15px;
+    padding: 15px;
+}
+.promo{
+    padding:200px;
+    font-size: 50px;
+}
+.promotion{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 40px;
+    font-size: 20px;
+}
+.introduction{
+    font-size: 30px;
+    display: flex;
+    padding: 200px;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.disclaimer{
+    background-color: pink;
+}
