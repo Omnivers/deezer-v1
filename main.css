@@ -1,29 +1,75 @@
+@font-face {
+    font-family: ro_li;
+    src: url(/PoliceRoboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: ro_bold;
+    src: url(/PoliceRoboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: ro;
+    src: url(/PoliceRoboto/Roboto-BoldCondensed.ttf);
+}
+button{
+    border:1px solid #2d96c8;
+    border-radius: 50px;
+    margin: 15px;   
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: ro;
+    font-size: 20px;
+}
 nav{
+    font-family: ro_bold;
     display:flex;
     justify-content: space-between;
 }
 .head{
     display: flex;
     list-style: none;
+    font-size: 20px;
 }
 .head li{
     padding: 30px;
 }
-.Login{
-    margin: 15px;
-    padding: 15px;
+.Login1{
+    color: #2d96c8;
+}
+.Login2{
+    background-color: #2d96c8;
+    color: white;
+    margin-right: 140px;
+}
+.logo{
+    margin: 10px;
+    margin-left: 50px;
 }
 .promo{
     padding:200px;
     font-size: 50px;
+    font-family: ro;
+    background: url('/img/hero1.png') no-repeat;
+    background-position: right;
 }
-.promotion{
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 40px;
+.promo p{
+    font-family: ro_bold;
+    color:#ef5466;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.promotion1, .promotion2{
     font-size: 20px;
+    margin-top: 80px;
+}
+.promotion1{
+    border: solid 1px #ef5466;
+    background-color: #ef5466;
+    color: white;
+}
+.promotion2{
+    border: solid 1px black;
+    color: black;
 }
 .introduction{
     font-size: 30px;
@@ -36,5 +82,5 @@ nav{
     margin: 50px;
 }
 .disclaimer{
-    background-color: pink;
+    background-color:#ef5466;
 }
