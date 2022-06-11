@@ -77,10 +77,32 @@ nav{
     padding: 200px;
 }
 .text{
+    font-family: ro_bold;
+    line-height: 1.5;
     display: flex;
     flex-wrap: wrap;
     margin: 50px;
 }
+.text h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.text h2{
+    font-size: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.text article{
+    width: 50% ;
+}
+.text p{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    margin-right: 30px;
+}
 .disclaimer{
     background-color:#ef5466;
+    display: flex;
 }
