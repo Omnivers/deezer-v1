@@ -103,6 +103,21 @@ nav{
     margin-right: 30px;
 }
 .disclaimer{
+    font-family: ro_bold;
+    color: white;
+    padding: 150px;
     background-color:#ef5466;
     display: flex;
+}
+.disclaimer img{
+    margin-top: 40px;
+}
+.disclaimer h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.disclaimer h4{
+    font-family: ro_li;
+    line-height: 1.5;
+    font-size: 20px;
 }
