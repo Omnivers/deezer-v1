@@ -11,7 +11,7 @@
     src: url(/PoliceRoboto/Roboto-BoldCondensed.ttf);
 }
 button{
-    border:1px solid #2d96c8;
+    border:1px solid ;
     border-radius: 50px;
     margin: 15px;   
     padding: 10px;
@@ -99,7 +99,7 @@ nav{
 .text p{
     font-size: 20px;
     font-weight: bold;
-    color: grey;
+    color: #8e8e94;
     margin-right: 30px;
 }
 .disclaimer{
@@ -120,4 +120,161 @@ nav{
     font-family: ro_li;
     line-height: 1.5;
     font-size: 20px;
+}
+.promo2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Ro_li;
+}
+.promo2 h1{
+    font-size: 55px;
+    font-family: ro;
+    margin: 100px;
+}
+.content{
+    display:flex;
+    font-size: 30px;
+}
+.content h2{
+    font-family: ro;
+    font-size: 45px;
+    margin: 30px;
+}
+.content_gratuit, .content_famille, .content_prem{
+    border: 1px solid #8e8e94;
+    margin: 2px;
+    box-shadow: 2px 2px 3px #8e8e94;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content_prem{
+    background-color: #2d96c8;
+    color: white;
+}
+#per{
+    font-family: ro_li;
+    margin-left: 45px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.promo2 li{
+    list-style: none;
+    line-height: 2;
+    color: rgb(169,169,169);
+    padding-left: 10px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.engagement{
+    font-size: 30px;
+    background-color: rgb(253, 55, 55);
+    color:white;
+    border-color: transparent;
+}
+a{
+    font-family: ro;
+    margin: 30px;
+    text-decoration: none;
+    color:  #2d96c8;
+}
+h6{
+    color: #8e8e94;
+}
+.triangle{ 
+    margin: 20px;  
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 11px 15px 0 15px;
+    border-color: #007bff transparent transparent transparent;
+}
+.disable{
+    color: rgb(169,169,169,0.3)
+}
+.promo2 p{
+    margin: 100px;
+    color: rgb(169,169,169)
+}
+.content_prem li:not(.disable), .content_prem a{
+    color: white;
+}
+.content_gratuit button{
+    background-color: #8e8e94;
+}
+.invisible{
+    visibility: hidden;
+}
+.first,.second,.third{
+    background-color:  #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.first a{
+    font-size: 30px;
+    font-family: ro;
+}
+
+.first h1,.second h1,.third h1{
+    font-size: 40px;
+    font-family: Ro_bold;
+    margin-bottom: 30px;
+
+}
+
+.pourcentage{
+    margin-left: 5px;
+    color:#ef5466;
+}
+.first p,.second p,.third p{
+    font-family: ro_li;
+    font-size: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.Store{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.stores{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: black;
+}
+.contact{
+    display: flex;
+    line-height: 3;
+}
+.contact h3{
+    font-size: 20px;
+    color: #8e8e94;
+    font-family: ro_bold;
+}
+.contact li{
+    list-style: none;
+    font-size: 20px;
+    font-family: ro_li;
+}
+.Deezer,.Explorer,.who,.Légal{
+    margin: 100px;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.copyright{
+    display: flex;
+    margin: 40px;
 }

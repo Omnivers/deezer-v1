@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <title>Copie de Deezer V1</title>
 </head>
 <body>
@@ -64,57 +65,84 @@
                 <h4>De votre footing matinal jusqu'au diner du soir, votre musique vous<br>suit partout avec Deezer Premium. Disponible tout le temps, sur<br>tous vos appareils, meme sans WIFI ni 4G</h4>
             </article>
         </section>
-            <h1>Profitez de votre musique</h1>
         <section class="promo2">
+            <h1>Profitez de votre musique</h1>
+            <h6>Recommandé</h6>
+            <span class="triangle">.</span>
+            <section class="content">
             <article class="content_gratuit">
                 <h2>Deezer Gratuit</h2>
-                <h2>0.00 €</h2>
-                <li>73 millions de titres</li>
-                <li>Lecture aléatoire</li>
-                <li>Zappez en illimité</li>
-                <li>Mode hors connexion</li>
-                <li>6 comptes</li>
+                <h2>0.00 €<br><span id="per">/mois</span></h2>
+                <li class="able">✔ 73 millions de titres</li>
+                <li class="able">✔ Lecture aléatoire</li>
+                <li class="disable">X Zappez en illimité</li>
+                <li class="disable">X Mode hors connexion</li>
+                <li class="disable">X 6 comptes</li>
+                <a class="invisible" href="">.</a>
                 <button class="engagement">S'inscrire</button>
+                <a href="">Plus d'infos</a>
             </article>
             <article class="content_prem">
                 <h2>Deezer Premium</h2>
-                <h2>9.99 €</h2>
-                <li>73 millions de titres</li>
-                <li>Sans publicité</li>
-                <li>Zappez en illimité</li>
-                <li>Mode hors connexion</li>
-                <li>6 comptes</li>
+                <h2>9.99 €<br><span id="per">/mois</span></h2>
+                <li class="able">✔ 73 millions de titres</li>
+                <li class="able">✔ Sans publicité</li>
+                <li class="able">✔ Zappez en illimité</li>
+                <li class="able">✔ Mode hors connexion</li>
+                <li class="disable">X 6 comptes</li>
+                <a href="">1 mois offert</a>
                 <button class="engagement">J'en profite</button>
+                <a href="">Plus d'infos</a>
             </article>
             <article class="content_famille">
                 <h2>Deezer Premium</h2>
-                <h2>14.99 €</h2>
-                <li>73 millions de titres</li>
-                <li>Sans publicité</li>
-                <li>Zappez en illimité</li>
-                <li>Mode hors connexion</li>
-                <li>6 comptes</li>
+                <h2>14.99 €<br><span id="per">/mois</span></h2>
+                <li class="able">✔ 73 millions de titres</li>
+                <li class="able">✔ Sans publicité</li>
+                <li class="able">✔ Zappez en illimité</li>
+                <li class="able">✔ Mode hors connexion</li>
+                <li class="able">✔ 6 comptes</li>
+                <a href="">3 mois offert</a>
                 <button class="engagement">J'en profite</button>
+                <a href="">Plus d'infos</a>
             </article>
+            </section>
+                <p>Ces offres sont sans engagement : vous pouvez résiliez votre abonnement à tout moment. Ces offres sont réservées aux utilisateurs n'ayant été abonnés à aucune offre Deezer, n'ayant jamais bénéficié d'une offre promotionnelle Deezer et d'aucun essai au service gratuit au préalable à tout moment. Ces offres ne sont cumulables avec aucune autre offre. Ces offres ne sont valables qu'une seule fois par utilisateur.</p>
         </section>
         <!--Manque de buttons-->
-        <article class="reductions">
-            <h1>Abonnement annuel<span class="pourcentage">25%</span></h1>
-            <h4>Un an d'abonnement à Deezer Premium pour 89,90 $ au lieu de 119,88 $</h4>
-            <a href=""> En savoir plus </a>
-        </article>
-        <article>
-            <h1>Deezer HiFi</h1>
-            <h4>Un son authentique pour 14,99 $/mois, 1 mois offert</h4>
-        </article>
-        <article>
-            <h1>Deezer Etudiant<span class="pourcentage">-50%</span></h1>
-            <h4>Premium pour seulement 4,99 $/mois, 3 mois offerts</h4>
-        </article>
+        <section class="first">
+            <div class="first_text">
+                <h1>Abonnement annuel<span class="pourcentage">-25%</span></h1>
+                <p>Un an d'abonnement à Deezer Premium pour 89,90 € au lieu de 119,88 €</p>
+                <a href=""> En savoir plus </a>
+            </div>
+            <div class="first_button">
+                <button class="Ensavoirplus">S'abonner</button>
+            </div>
+        </section>
+        <section class="second">
+            <div class="second_text">
+                <h1>Deezer HiFi</h1>
+                <p>Un son authentique pour 14,99 €/mois, 1 mois offert</p>
+            </div> 
+            <div class="second_button">  
+                <button class="Ensavoirplus">En savoir plus</button>
+            </div>
+        </section>
+        <section class="third">
+            <div class="third_text">
+                <h1>Deezer Etudiant<span class="pourcentage">-50%</span></h1>
+                <p>Premium pour seulement 4,99 €/mois, 3 mois offerts</p>
+            </div>
+            <div class="third_button">
+                <button class="Ensavoirplus">En savoir plus</button>
+            </div>
+        </div>
     </main>
-        <footer>
+    <footer>
         <section class="Store">
-
+            <button class="stores"><img src="img/Capture d’écran 2022-06-11 234035.png" width="100%"></button>
+            <button class="stores"><img src="img/Capture d’écran 2022-06-11 234344.png" width="75%"></button>
         </section>
         <section class="contact"> 
            <div class="Deezer">
@@ -150,19 +178,24 @@
         </section> 
         <section class="logos">
             <icons>
-
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
             </icons>
             <label>
-                <img  src='/img/logo.png' alt="">
+                <img  src='/img/logo.png' alt="" style="background-color:white">
             </label>
-            
-        <select id="langue" >
-            <option value="français">Français</option>
-            <option value="anglais">English</option>
-            <option value="Chinois"> 汉语 </option>
-            <option value="Arabe">العربية</option>
-        </select>
+            <div class="copyright">
+                <h3>&copy; 2021</h3>
+            <select id="langue" >
+                <option value="français">Français</option>
+                <option value="anglais">English</option>
+                <option value="Chinois"> 汉语 </option>
+                <option value="Arabe">العربية</option>
+            </select>
+            </div> 
         </section> 
-        </footer>
+    </footer>
 </body>
 </html>
