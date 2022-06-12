@@ -45,6 +45,9 @@ nav{
     margin: 10px;
     margin-left: 50px;
 }
+.imginvi{
+    display: none;
+}
 .promo{
     padding:200px;
     font-size: 50px;
@@ -278,3 +281,224 @@ footer{
     display: flex;
     margin: 40px;
 }
+.menu-btn {
+    z-index: 3;
+    cursor: pointer;
+    background-color: black;
+    margin-left: 100px;
+    display: none;
+     }
+    .menu-btn .btn-line {
+      width: 40px;
+      height: 20px;
+      margin: 0 0 7px 0;
+      background: #fff;
+     }
+
+@media screen and (max-width: 768px) {
+    nav{
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav li{
+        display: none;
+    }
+    nav button{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .promo{
+        padding:60px;
+        font-size: 50px;
+        font-family: ro;
+        background: none;
+    }
+    .promo p{
+        font-family: ro_bold;
+        color:#ef5466;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .promotion1, .promotion2{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .promotion1{
+        border: solid 1px #ef5466;
+        background-color: #ef5466;
+        color: white;
+    }
+    .promotion2{
+        border: solid 1px black;
+        color: black;
+    }
+    .imginvi{
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .introduction{
+        font-size: 30px;
+        display: flex;
+        padding: 0px;
+    }
+    .introduction img{
+        display: none;
+    }
+    .text{
+        font-family: ro_bold;
+        line-height: 1.5;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px;
+    }
+    .text h1{
+        font-size: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .text h2{
+        font-size: 35px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .text article{
+        width: 100% ;
+    }
+    .text p{
+        font-size: 20px;
+        font-weight: bold;
+        color: #8e8e94;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    .disclaimer{
+        font-family: ro_bold;
+        color: white;
+        padding: 0px;
+        background-color:#ef5466;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        margin-bottom: 40px;
+    }
+    .disclaimer img{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .disclaimer h1{
+        font-size: 40px;
+        margin-bottom: 40px;
+        margin-left: 50px;
+ 
+    }
+    .disclaimer h4{
+        font-family: ro_li;
+        line-height: 1.5;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .promo2 h1{
+        font-size: 40px;
+        font-family: ro;
+        margin: 10px;
+    }
+    .content{
+        display:flex;
+        flex-direction: column;
+        font-size: 30px;
+    
+    }
+    .content h2{
+        font-family: ro;
+        font-size: 45px;
+        margin: 30px;
+    }
+    .content_gratuit, .content_famille, .content_prem{
+        border: 1px solid #8e8e94;
+        margin: 30px;
+        box-shadow: 2px 2px 3px #8e8e94;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .content_prem{
+        background-color: #2d96c8;
+        color: white;
+    }
+    #per{
+        font-family: ro_li;
+        margin-left: 45px;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+    .promo2 li{
+        list-style: none;
+        line-height: 2;
+        color: rgb(169,169,169);
+        padding-left: 10px;
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+    .engagement{
+        font-size: 30px;
+        background-color: rgb(253, 55, 55);
+        color:white;
+        border-color: transparent;
+    }
+    a{
+        font-family: ro;
+        margin: 30px;
+        text-decoration: none;
+        color:  #2d96c8;
+    }
+    h6{
+        display: none;
+    }
+    .triangle{ 
+        display: none;
+    }
+    .first,.second,.third{
+        background-color:  #f9f9f9;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        padding-left: 50px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+    .first a{
+        font-size: 10px;
+        font-family: ro;
+    }  
+    .first h1,.second h1,.third h1{
+        font-size: 20px;
+        font-family: Ro_bold;
+        margin-bottom: 30px;
+        width: 100%;
+    
+    }
+    .Ensavoirplus{
+        margin: 0;
+        width: 100%;
+    }
+    .first p,.second p,.third p{
+        display: none;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        line-height: 3;
+    }
+    .Deezer,.Explorer,.who,.Légal{
+        margin: 50px;
+    }
+    .logos{
+        display: flex;
+        flex-direction: column;
+    }}
