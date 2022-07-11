@@ -1,14 +1,14 @@
 @font-face {
     font-family: ro_li;
-    src: url(/PoliceRoboto/Roboto-Light.ttf);
+    src: url(./PoliceRoboto/Roboto-Light.ttf);
 }
 @font-face {
     font-family: ro_bold;
-    src: url(/PoliceRoboto/Roboto-Bold.ttf);
+    src: url(./PoliceRoboto/Roboto-Bold.ttf);
 }
 @font-face {
     font-family: ro;
-    src: url(/PoliceRoboto/Roboto-BoldCondensed.ttf);
+    src: url(./PoliceRoboto/Roboto-BoldCondensed.ttf);
 }
 button{
     border:1px solid ;
@@ -52,7 +52,7 @@ nav{
     padding:200px;
     font-size: 50px;
     font-family: ro;
-    background: url('/img/hero1.png') no-repeat;
+    background: url('./img/hero1.png') no-repeat;
     background-position: right;
 }
 .promo p{
