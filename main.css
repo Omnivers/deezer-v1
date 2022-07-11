@@ -281,6 +281,9 @@ footer{
     display: flex;
     margin: 40px;
 }
+button, icons{
+    cursor: pointer;
+}
 .menu-btn {
     z-index: 3;
     cursor: pointer;
